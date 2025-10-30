@@ -6,13 +6,13 @@ Release date: **31st Oct 2025**
   - coming soon
 
 - **E39 5-series**
-  - M54B30: coming soon
+  - [M54B30](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E39_M54B30.bin)
 
 - **E46 3-series**
   - M52TUB28: coming soon
   - M54B22: coming soon
-  - M54B25: coming soon
-  - M54B30: coming soon
+  - [M54B25](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B25.bin)
+  - [M54B30](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B30.bin)
 
 - **E53 X5-series**
   - M54B30: coming soon
