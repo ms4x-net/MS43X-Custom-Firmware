@@ -1,0 +1,3013 @@
+<ADXFORMAT version="1.01">
+  <!-- Written 10/23/2025 11:56:25 -->
+  <ADXHEADER>
+    <guid>4948f148-506d-4384-b7b8-364330319c5f</guid>
+    <flags>0x10001</flags>
+    <objectcount>181</objectcount>
+    <userversion>1.0.0</userversion>
+    <author>MS4x Dev Team</author>
+    <desc>Logging definition for the MS43X001 firmware.</desc>
+    <baud>9600</baud>
+    <parity>2</parity>
+    <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="3" baud="0" signed="0" lsbfirst="0" float="0" />
+    <connectcmd>INCREASEBAUDRA</connectcmd>
+    <monitorcmd>MONITORMACRO</monitorcmd>
+    <disconnectcmd>RESETBAUDRATE</disconnectcmd>
+  </ADXHEADER>
+
+  <ADXHISTOGRAM id="MAFHISTORY" idhash="0x5B853D3F" title="Mass Air Flow">
+    <rows>16</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="512.000000" />
+    <rowval index="1" val="704.000000" />
+    <rowval index="2" val="992.000000" />
+    <rowval index="3" val="1248.000000" />
+    <rowval index="4" val="1504.000000" />
+    <rowval index="5" val="1728.000000" />
+    <rowval index="6" val="2016.000000" />
+    <rowval index="7" val="2528.000000" />
+    <rowval index="8" val="2832.000000" />
+    <rowval index="9" val="3008.000000" />
+    <rowval index="10" val="3296.000000" />
+    <rowval index="11" val="4064.000000" />
+    <rowval index="12" val="4512.000000" />
+    <rowval index="13" val="5600.000000" />
+    <rowval index="14" val="6016.000000" />
+    <rowval index="15" val="6400.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="5.000000" />
+    <colval index="2" val="10.000000" />
+    <colval index="3" val="15.000000" />
+    <colval index="4" val="20.000000" />
+    <colval index="5" val="25.000000" />
+    <colval index="6" val="30.000000" />
+    <colval index="7" val="35.000000" />
+    <colval index="8" val="40.000000" />
+    <colval index="9" val="45.000000" />
+    <colval index="10" val="50.000000" />
+    <colval index="11" val="55.000000" />
+    <colval index="12" val="60.000000" />
+    <colval index="13" val="65.000000" />
+    <colval index="14" val="70.000000" />
+    <colval index="15" val="81.000000" />
+    <historysize>100</historysize>
+    <xidhash>0xCD44515B</xidhash>
+    <yidhash>0x86F3491B</yidhash>
+    <zidhash>0xCD7B4C5B</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="MAFHISTORY8" idhash="0x70A7AEEB" title="Engine Load 8x8">
+    <rows>8</rows>
+    <cols>8</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="512.000000" />
+    <rowval index="1" val="1312.000000" />
+    <rowval index="2" val="1504.000000" />
+    <rowval index="3" val="2304.000000" />
+    <rowval index="4" val="3040.000000" />
+    <rowval index="5" val="4704.000000" />
+    <rowval index="6" val="5504.000000" />
+    <rowval index="7" val="6400.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="2.800000" />
+    <colval index="2" val="7.000000" />
+    <colval index="3" val="13.600000" />
+    <colval index="4" val="21.100000" />
+    <colval index="5" val="30.000000" />
+    <colval index="6" val="40.299999" />
+    <colval index="7" val="68.900002" />
+    <historysize>100</historysize>
+    <xidhash>0xCD44515B</xidhash>
+    <yidhash>0x86F3491B</yidhash>
+    <zidhash>0xA63109FD</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="MAFHISTORY16" idhash="0x14F54F6E" title="Engine Load 16x16">
+    <rows>16</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="512.000000" />
+    <rowval index="1" val="704.000000" />
+    <rowval index="2" val="992.000000" />
+    <rowval index="3" val="1248.000000" />
+    <rowval index="4" val="1504.000000" />
+    <rowval index="5" val="1728.000000" />
+    <rowval index="6" val="2016.000000" />
+    <rowval index="7" val="2528.000000" />
+    <rowval index="8" val="3008.000000" />
+    <rowval index="9" val="3296.000000" />
+    <rowval index="10" val="4064.000000" />
+    <rowval index="11" val="4512.000000" />
+    <rowval index="12" val="4832.000000" />
+    <rowval index="13" val="5600.000000" />
+    <rowval index="14" val="6016.000000" />
+    <rowval index="15" val="6400.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="2.499000" />
+    <colval index="2" val="5.001000" />
+    <colval index="3" val="7.500000" />
+    <colval index="4" val="9.999000" />
+    <colval index="5" val="12.501000" />
+    <colval index="6" val="15.000000" />
+    <colval index="7" val="17.499001" />
+    <colval index="8" val="20.000999" />
+    <colval index="9" val="24.000000" />
+    <colval index="10" val="28.000000" />
+    <colval index="11" val="32.000000" />
+    <colval index="12" val="36.000000" />
+    <colval index="13" val="39.999001" />
+    <colval index="14" val="50.000999" />
+    <colval index="15" val="69.999001" />
+    <historysize>100</historysize>
+    <xidhash>0xCD44515B</xidhash>
+    <yidhash>0x86F3491B</yidhash>
+    <zidhash>0xA63109FD</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="IGAAVGHISTORY" idhash="0x0E95857E" title="Ignition Advance">
+    <rows>21</rows>
+    <cols>17</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="320.000000" />
+    <rowval index="2" val="600.000000" />
+    <rowval index="3" val="900.000000" />
+    <rowval index="4" val="1000.000000" />
+    <rowval index="5" val="1200.000000" />
+    <rowval index="6" val="1500.000000" />
+    <rowval index="7" val="1600.000000" />
+    <rowval index="8" val="2000.000000" />
+    <rowval index="9" val="2250.000000" />
+    <rowval index="10" val="2500.000000" />
+    <rowval index="11" val="3000.000000" />
+    <rowval index="12" val="3500.000000" />
+    <rowval index="13" val="3900.000000" />
+    <rowval index="14" val="4100.000000" />
+    <rowval index="15" val="4500.000000" />
+    <rowval index="16" val="4800.000000" />
+    <rowval index="17" val="5100.000000" />
+    <rowval index="18" val="5500.000000" />
+    <rowval index="19" val="6000.000000" />
+    <rowval index="20" val="6500.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="50.000000" />
+    <colval index="2" val="75.000000" />
+    <colval index="3" val="100.000000" />
+    <colval index="4" val="125.000000" />
+    <colval index="5" val="175.000000" />
+    <colval index="6" val="250.000000" />
+    <colval index="7" val="300.000000" />
+    <colval index="8" val="325.000000" />
+    <colval index="9" val="350.000000" />
+    <colval index="10" val="375.000000" />
+    <colval index="11" val="400.000000" />
+    <colval index="12" val="450.000000" />
+    <colval index="13" val="500.000000" />
+    <colval index="14" val="550.000000" />
+    <colval index="15" val="600.000000" />
+    <colval index="16" val="700.000000" />
+    <historysize>100</historysize>
+    <xidhash>0xA62DC7FD</xidhash>
+    <yidhash>0x86F3491B</yidhash>
+    <zidhash>0xE7D95B53</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="CAMINHISTORY" idhash="0xD864014C" title="VANOS Intake">
+    <rows>17</rows>
+    <cols>13</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="600.000000" />
+    <rowval index="2" val="1000.000000" />
+    <rowval index="3" val="1200.000000" />
+    <rowval index="4" val="1500.000000" />
+    <rowval index="5" val="1600.000000" />
+    <rowval index="6" val="2000.000000" />
+    <rowval index="7" val="2500.000000" />
+    <rowval index="8" val="3000.000000" />
+    <rowval index="9" val="3500.000000" />
+    <rowval index="10" val="3900.000000" />
+    <rowval index="11" val="4100.000000" />
+    <rowval index="12" val="4500.000000" />
+    <rowval index="13" val="4800.000000" />
+    <rowval index="14" val="5500.000000" />
+    <rowval index="15" val="6000.000000" />
+    <rowval index="16" val="6500.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="50.000000" />
+    <colval index="2" val="75.000000" />
+    <colval index="3" val="100.000000" />
+    <colval index="4" val="125.000000" />
+    <colval index="5" val="175.000000" />
+    <colval index="6" val="250.000000" />
+    <colval index="7" val="325.000000" />
+    <colval index="8" val="400.000000" />
+    <colval index="9" val="450.000000" />
+    <colval index="10" val="500.000000" />
+    <colval index="11" val="550.000000" />
+    <colval index="12" val="600.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x61DD66F7</xidhash>
+    <yidhash>0xCD26DBFB</yidhash>
+    <zidhash>0x1329D214</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="CAMEXHISTORY" idhash="0xD87B934C" title="VANOS Exhaust">
+    <rows>17</rows>
+    <cols>13</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="600.000000" />
+    <rowval index="2" val="1000.000000" />
+    <rowval index="3" val="1200.000000" />
+    <rowval index="4" val="1500.000000" />
+    <rowval index="5" val="1600.000000" />
+    <rowval index="6" val="2000.000000" />
+    <rowval index="7" val="2500.000000" />
+    <rowval index="8" val="3000.000000" />
+    <rowval index="9" val="3500.000000" />
+    <rowval index="10" val="3900.000000" />
+    <rowval index="11" val="4100.000000" />
+    <rowval index="12" val="4500.000000" />
+    <rowval index="13" val="4800.000000" />
+    <rowval index="14" val="5500.000000" />
+    <rowval index="15" val="6000.000000" />
+    <rowval index="16" val="6500.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="50.000000" />
+    <colval index="2" val="75.000000" />
+    <colval index="3" val="100.000000" />
+    <colval index="4" val="125.000000" />
+    <colval index="5" val="175.000000" />
+    <colval index="6" val="250.000000" />
+    <colval index="7" val="325.000000" />
+    <colval index="8" val="400.000000" />
+    <colval index="9" val="450.000000" />
+    <colval index="10" val="500.000000" />
+    <colval index="11" val="550.000000" />
+    <colval index="12" val="600.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x61DD66F7</xidhash>
+    <yidhash>0xCD26DBFB</yidhash>
+    <zidhash>0x132A2054</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="TIAVGHISTORY" idhash="0xECB9C949" title="Injection Time Average">
+    <rows>17</rows>
+    <cols>13</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="600.000000" />
+    <rowval index="2" val="1000.000000" />
+    <rowval index="3" val="1200.000000" />
+    <rowval index="4" val="1500.000000" />
+    <rowval index="5" val="1600.000000" />
+    <rowval index="6" val="2000.000000" />
+    <rowval index="7" val="2500.000000" />
+    <rowval index="8" val="3000.000000" />
+    <rowval index="9" val="3500.000000" />
+    <rowval index="10" val="3900.000000" />
+    <rowval index="11" val="4100.000000" />
+    <rowval index="12" val="4500.000000" />
+    <rowval index="13" val="4800.000000" />
+    <rowval index="14" val="5500.000000" />
+    <rowval index="15" val="6000.000000" />
+    <rowval index="16" val="6500.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="35.000000" />
+    <colval index="2" val="75.000000" />
+    <colval index="3" val="125.000000" />
+    <colval index="4" val="175.000000" />
+    <colval index="5" val="250.000000" />
+    <colval index="6" val="325.000000" />
+    <colval index="7" val="400.000000" />
+    <colval index="8" val="450.000000" />
+    <colval index="9" val="500.000000" />
+    <colval index="10" val="550.000000" />
+    <colval index="11" val="600.000000" />
+    <colval index="12" val="700.000000" />
+    <historysize>100</historysize>
+    <xidhash>0xC19CE254</xidhash>
+    <yidhash>0xCD26DBFB</yidhash>
+    <zidhash>0x1B9CD2D5</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="TI1HISTORY" idhash="0x5A68E43F" title="Injection Time Bank 1">
+    <rows>17</rows>
+    <cols>13</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="600.000000" />
+    <rowval index="2" val="1000.000000" />
+    <rowval index="3" val="1200.000000" />
+    <rowval index="4" val="1500.000000" />
+    <rowval index="5" val="1600.000000" />
+    <rowval index="6" val="2000.000000" />
+    <rowval index="7" val="2500.000000" />
+    <rowval index="8" val="3000.000000" />
+    <rowval index="9" val="3500.000000" />
+    <rowval index="10" val="3900.000000" />
+    <rowval index="11" val="4100.000000" />
+    <rowval index="12" val="4500.000000" />
+    <rowval index="13" val="4800.000000" />
+    <rowval index="14" val="5500.000000" />
+    <rowval index="15" val="6000.000000" />
+    <rowval index="16" val="6500.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="35.000000" />
+    <colval index="2" val="75.000000" />
+    <colval index="3" val="125.000000" />
+    <colval index="4" val="175.000000" />
+    <colval index="5" val="250.000000" />
+    <colval index="6" val="325.000000" />
+    <colval index="7" val="400.000000" />
+    <colval index="8" val="450.000000" />
+    <colval index="9" val="500.000000" />
+    <colval index="10" val="550.000000" />
+    <colval index="11" val="600.000000" />
+    <colval index="12" val="700.000000" />
+    <historysize>100</historysize>
+    <xidhash>0xC19CE254</xidhash>
+    <yidhash>0xCD26DBFB</yidhash>
+    <zidhash>0xDD5C450F</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="TI2HISTORY" idhash="0x5A68313F" title="Injection Time Bank 2">
+    <rows>17</rows>
+    <cols>13</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="600.000000" />
+    <rowval index="2" val="1000.000000" />
+    <rowval index="3" val="1200.000000" />
+    <rowval index="4" val="1500.000000" />
+    <rowval index="5" val="1600.000000" />
+    <rowval index="6" val="2000.000000" />
+    <rowval index="7" val="2500.000000" />
+    <rowval index="8" val="3000.000000" />
+    <rowval index="9" val="3500.000000" />
+    <rowval index="10" val="3900.000000" />
+    <rowval index="11" val="4100.000000" />
+    <rowval index="12" val="4500.000000" />
+    <rowval index="13" val="4800.000000" />
+    <rowval index="14" val="5500.000000" />
+    <rowval index="15" val="6000.000000" />
+    <rowval index="16" val="6500.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="35.000000" />
+    <colval index="2" val="75.000000" />
+    <colval index="3" val="125.000000" />
+    <colval index="4" val="175.000000" />
+    <colval index="5" val="250.000000" />
+    <colval index="6" val="325.000000" />
+    <colval index="7" val="400.000000" />
+    <colval index="8" val="450.000000" />
+    <colval index="9" val="500.000000" />
+    <colval index="10" val="550.000000" />
+    <colval index="11" val="600.000000" />
+    <colval index="12" val="700.000000" />
+    <historysize>100</historysize>
+    <xidhash>0xC19CE254</xidhash>
+    <yidhash>0xCD26DBFB</yidhash>
+    <zidhash>0xDD5C5FAF</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="TIIDLEHISTORY" idhash="0xDA4D70FA" title="Injection Time Idle">
+    <rows>7</rows>
+    <cols>7</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="320.000000" />
+    <rowval index="2" val="520.000000" />
+    <rowval index="3" val="580.000000" />
+    <rowval index="4" val="980.000000" />
+    <rowval index="5" val="1200.000000" />
+    <rowval index="6" val="1600.000000" />
+    <colval index="0" val="0.000000" />
+    <colval index="1" val="35.000000" />
+    <colval index="2" val="76.000000" />
+    <colval index="3" val="125.000000" />
+    <colval index="4" val="174.000000" />
+    <colval index="5" val="251.000000" />
+    <colval index="6" val="425.000000" />
+    <historysize>100</historysize>
+    <xidhash>0xC19E44F4</xidhash>
+    <yidhash>0xCD247D5B</yidhash>
+    <zidhash>0x1B9CD2D5</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXLISTVIEW id="ADCINPUTLIST" idhash="0x41693BB4" title="ADC Inputs">
+    <entrycount>6</entrycount>
+    <ADXLVENTRY entrytype="0" itemidhash="0x5480BBF2" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x5480A152" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x317B582D" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xB5BFF949" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x01BF7B7D" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x0BACEDEC" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="BCLIST" idhash="0x9DFF86FD" title="Boost Controller">
+    <entrycount>10</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xEB4B185D" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x86F3491B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD31415B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA6737119" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD1203DB" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD7B53DB" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA9879B9D" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xAF6631B9" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="FFLIST" idhash="0xD5FF86E7" title="Flex Fuel">
+    <entrycount>4</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xDA29DB32" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x1533CF7A" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="GENERALLIST" idhash="0x6B64672F" title="General">
+    <entrycount>29</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C0FE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C118" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C455" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C3B5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C468" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CE7249" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CEE382" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CEE2EA" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C180" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x87CEE6AF" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x87CE2377" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x430552D5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CEB2BB" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C6FA" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x86F3491B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xDE6A9030" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA6737119" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD31415B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD44515B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD7B4C5B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xED306795" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x1B9CD2D5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xE7D95B53" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x315D4E06" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x1329D214" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x132A2054" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xE7B5D877" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="IGALIST" idhash="0xF34EB63C" title="Ignition">
+    <entrycount>28</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C0FE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C118" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C455" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C3B5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C468" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CE7249" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x91E8C1BA" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CEE6BA" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x86F3491B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD46E75B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD46A91B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA8A1DA99" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA62DC7FD" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x2070B1FC" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xACF9E619" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF98C471C" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xACF9FCB9" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF98C5DBC" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xACF9E3B9" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF98C42BC" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xACF9E1B9" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF98C40BC" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xACF9F6D9" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF98C57DC" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xACF9F579" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF98C547C" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="TILIST" idhash="0x7BFF86E3" title="Injection">
+    <entrycount>23</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C0FE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C118" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C455" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C3B5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C468" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CE7249" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CE1F67" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x91E8C1BA" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xABE71CDF" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CEE6BA" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x8086848C" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x86F3491B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD46E75B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD46A91B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA8A1DA99" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xDE6A9050" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xED306795" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x6EFE471D" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xDD5C450F" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xDD5C5FAF" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x9DF71DF5" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="LSADLIST" idhash="0xC968C176" title="Lambda Adaptation">
+    <entrycount>16</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C0FE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C118" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C455" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C3B5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C468" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC7CE7249" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x9FD296E3" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x9FD28C43" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xAA783619" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xAA782CB9" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCACFD8AE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCACFC20E" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC12470AE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC1246A0E" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="TQINTVLIST" idhash="0x38D031B6" title="Torque Intervention">
+    <entrycount>11</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xB184E0EF" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xB1EEE0EF" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x1A052287" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x34ACE396" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xB184E2CF" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x86F3491B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xED306795" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xCD31415B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x257E58C2" />
+  </ADXLISTVIEW>
+
+  <ADXLISTVIEW id="VANOSLIST" idhash="0x81A635C0" title="VANOS">
+    <entrycount>16</entrycount>
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Digital Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C0FE" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x11E8C118" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C455" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x51E8C3B5" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x91E8C1BA" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xDD6371A0" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x435F5571" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xF9753567" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x8974FD23" />
+    <ADXLVENTRY entrytype="1" flags="0x00000001" title="Analog Values" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x86F3491B" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xA8A1DA99" />
+    <ADXLVENTRY entrytype="0" itemidhash="0xC5D877F4" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x1329D214" />
+    <ADXLVENTRY entrytype="0" itemidhash="0x132A2054" />
+  </ADXLISTVIEW>
+
+  <ADXLOOKUPTABLE id="VETABLE1" idhash="0x603EC77D" title="VE Table 1">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="1.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE2" idhash="0x603EDDDD" title="VE Table 2">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="1.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE3" idhash="0x603EC2DD" title="VE Table 3">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="1.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE4" idhash="0x603EC0DD" title="VE Table 4">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="1.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE5" idhash="0x603ED7BD" title="VE Table 5">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="1.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE6" idhash="0x603ED41D" title="VE Table 6">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="1.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE7" idhash="0x603ECE5D" title="VE Table 7">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="1.000000" />
+    <tableentry input="8.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="VETABLE8" idhash="0x603EC31D" title="VE Table 8">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>8</entrycount>
+    <tableentry input="1.000000" output="0.000000" />
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="3.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="5.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+    <tableentry input="7.000000" output="0.000000" />
+    <tableentry input="8.000000" output="1.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXHISTOGRAM id="VECORR1" idhash="0x42561470" title="Volumetric Efficiency Error 1">
+    <desc>Volumetric efficiency error for VE table 1 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB03DD</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR2" idhash="0x42560ED0" title="Volumetric Efficiency Error 2">
+    <desc>Volumetric efficiency error for VE table 2 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB197D</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR3" idhash="0x425611D0" title="Volumetric Efficiency Error 3">
+    <desc>Volumetric efficiency error for VE table 3 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB067D</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR4" idhash="0x425613D0" title="Volumetric Efficiency Error 4">
+    <desc>Volumetric efficiency error for VE table 4 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB047D</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR5" idhash="0x425604B0" title="Volumetric Efficiency Error 5">
+    <desc>Volumetric efficiency error for VE table 5 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB131D</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR6" idhash="0x42560710" title="Volumetric Efficiency Error 6">
+    <desc>Volumetric efficiency error for VE table 6 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB10BD</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR7" idhash="0x42561D50" title="Volumetric Efficiency Error 7">
+    <desc>Volumetric efficiency error for VE table 7 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB0AFD</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXHISTOGRAM id="VECORR8" idhash="0x42561010" title="Volumetric Efficiency Error 8">
+    <desc>Volumetric efficiency error for VE table 8 based on STFT correction for bank 1</desc>
+    <rows>17</rows>
+    <cols>16</cols>
+    <xmin>0.000000</xmin>
+    <xmax>0.000000</xmax>
+    <ymin>0.000000</ymin>
+    <ymax>0.000000</ymax>
+    <rowval index="0" val="0.000000" />
+    <rowval index="1" val="5.000000" />
+    <rowval index="2" val="10.000000" />
+    <rowval index="3" val="15.000000" />
+    <rowval index="4" val="20.000000" />
+    <rowval index="5" val="25.000000" />
+    <rowval index="6" val="30.000000" />
+    <rowval index="7" val="35.000000" />
+    <rowval index="8" val="40.000000" />
+    <rowval index="9" val="45.000000" />
+    <rowval index="10" val="50.000000" />
+    <rowval index="11" val="60.000000" />
+    <rowval index="12" val="70.000000" />
+    <rowval index="13" val="80.000000" />
+    <rowval index="14" val="90.000000" />
+    <rowval index="15" val="105.000000" />
+    <rowval index="16" val="125.000000" />
+    <colval index="0" val="320.000000" />
+    <colval index="1" val="704.000000" />
+    <colval index="2" val="992.000000" />
+    <colval index="3" val="1248.000000" />
+    <colval index="4" val="1504.000000" />
+    <colval index="5" val="2016.000000" />
+    <colval index="6" val="2496.000000" />
+    <colval index="7" val="3008.000000" />
+    <colval index="8" val="3500.000000" />
+    <colval index="9" val="4000.000000" />
+    <colval index="10" val="4500.000000" />
+    <colval index="11" val="4992.000000" />
+    <colval index="12" val="5500.000000" />
+    <colval index="13" val="6016.000000" />
+    <colval index="14" val="6500.000000" />
+    <colval index="15" val="7008.000000" />
+    <historysize>100</historysize>
+    <xidhash>0x86F3491B</xidhash>
+    <yidhash>0xA9DB07BD</yidhash>
+    <zidhash>0xAA783619</zidhash>
+  </ADXHISTOGRAM>
+
+  <ADXBITMASK id="STSTATE" idhash="0x11E8C0FE" title="Engine Start">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000001</operand>
+    <bitop>AND</bitop>
+    <result>0x00000001</result>
+  </ADXBITMASK>
+
+  <ADXLOOKUPTABLE id="BITIDLELOAD" idhash="0x49FDF0B7" title="Bit Idle Load">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>3</entrycount>
+    <tableentry input="2.000000" output="1.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="BITPARTLOAD" idhash="0x39FD5D29" title="Bit Part Load">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>3</entrycount>
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="4.000000" output="1.000000" />
+    <tableentry input="6.000000" output="0.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXLOOKUPTABLE id="BITFULLLOAD" idhash="0x63FDA286" title="Bit Full Load">
+    <inputtype>1</inputtype>
+    <outputtype>1</outputtype>
+    <lookupmode>3</lookupmode>
+    <entrycount>3</entrycount>
+    <tableentry input="2.000000" output="0.000000" />
+    <tableentry input="4.000000" output="0.000000" />
+    <tableentry input="6.000000" output="1.000000" />
+  </ADXLOOKUPTABLE>
+
+  <ADXBITMASK id="ISSTATE" idhash="0x11E8C118" title="Idle">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000006</operand>
+    <bitop>AND</bitop>
+    <result>0x00000002</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="PLSTATE" idhash="0x51E8C455" title="Part Load">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000006</operand>
+    <bitop>AND</bitop>
+    <result>0x00000004</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="FLSTATE" idhash="0x51E8C3B5" title="Full Load">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000006</operand>
+    <bitop>AND</bitop>
+    <result>0x00000006</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="PUSTATE" idhash="0x11E8C468" title="Trailing Throttle">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000008</operand>
+    <bitop>AND</bitop>
+    <result>0x00000008</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="PUCSTATE" idhash="0xC7CE7249" title="Trailing Throttle Fuel Cut">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000010</operand>
+    <bitop>AND</bitop>
+    <result>0x00000010</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="BTSSTATE" idhash="0xC7CEE382" title="Brake Light Test Switch">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000020</operand>
+    <bitop>AND</bitop>
+    <result>0x00000020</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="BLSSTATE" idhash="0xC7CEE2EA" title="Brake Light Switch">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000040</operand>
+    <bitop>AND</bitop>
+    <result>0x00000040</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="CSSTATE" idhash="0x11E8C180" title="Clutch Switch">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x00</packetoffset>
+    <operand>0x00000080</operand>
+    <bitop>AND</bitop>
+    <result>0x00000080</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="ACCINSTATE" idhash="0xD8C1B197" title="Air Conditioner Compressor">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000001</operand>
+    <bitop>AND</bitop>
+    <result>0x00000001</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="DRISTATE" idhash="0x07CEE205" title="Automatic Transmission In Gear">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000002</operand>
+    <bitop>AND</bitop>
+    <result>0x00000002</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="WUPSTATE" idhash="0xC7CE1F67" title="Engine Warm Up">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000004</operand>
+    <bitop>AND</bitop>
+    <result>0x00000004</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="CHSTATE" idhash="0x91E8C1BA" title="Catalyst Heating">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000008</operand>
+    <bitop>AND</bitop>
+    <result>0x00000008</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="CRUSWISTATE" idhash="0x5FE57094" title="Cruise Control">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000010</operand>
+    <bitop>AND</bitop>
+    <result>0x00000010</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="MILSTATE" idhash="0x87CEE6AF" title="Check Engine Light">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000020</operand>
+    <bitop>AND</bitop>
+    <result>0x00000020</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="EMLSTATE" idhash="0x87CE2377" title="Engine Malfunction Light">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000040</operand>
+    <bitop>AND</bitop>
+    <result>0x00000040</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="TENGSTATE" idhash="0x430552D5" title="Engine Overheating Light">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x01</packetoffset>
+    <operand>0x00000080</operand>
+    <bitop>AND</bitop>
+    <result>0x00000080</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="VANOSPASSIVE" idhash="0xDD6371A0" title="VANOS Passive">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000003</operand>
+    <bitop>AND</bitop>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="VANOSREADY" idhash="0x435F5571" title="VANOS Ready">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000003</operand>
+    <bitop>AND</bitop>
+    <result>0x00000001</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="VANOSACTIVE" idhash="0xF9753567" title="VANOS Active">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000003</operand>
+    <bitop>AND</bitop>
+    <result>0x00000002</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="VANOSLIMPHOME" idhash="0x8974FD23" title="VANOS Limp Home">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000003</operand>
+    <bitop>AND</bitop>
+    <result>0x00000003</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="LAMCTRL1" idhash="0x9FD296E3" title="Lambda Control 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000004</operand>
+    <bitop>AND</bitop>
+    <result>0x00000004</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="LAMCTRL2" idhash="0x9FD28C43" title="Lambda Control 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000008</operand>
+    <bitop>AND</bitop>
+    <result>0x00000008</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="MISSTATE" idhash="0xC7CEE6BA" title="Engine Misfire">
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000010</operand>
+    <bitop>AND</bitop>
+    <result>0x00000010</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="MISSTATEOFFIV" idhash="0x8086848C" title="Engine Misfire Cylinder Cut">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000020</operand>
+    <bitop>AND</bitop>
+    <result>0x00000020</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="EFPRLYSTATE" idhash="0xABE71CDF" title="Fuel Pump Relay">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000040</operand>
+    <bitop>AND</bitop>
+    <result>0x00000040</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="EFSTATE" idhash="0x11E8C6FA" title="Exhaust Flap">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x02</packetoffset>
+    <operand>0x00000080</operand>
+    <bitop>AND</bitop>
+    <result>0x00000080</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="VIMSTATE" idhash="0xC7CEB2BB" title="DISA">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x03</packetoffset>
+    <operand>0x00000001</operand>
+    <bitop>AND</bitop>
+    <result>0x00000001</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="FFERRSTATE" idhash="0xDA29DB32" title="Flex Fuel Limp Home">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x03</packetoffset>
+    <operand>0x00000002</operand>
+    <bitop>AND</bitop>
+    <result>0x00000002</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="OBPROTSTATE" idhash="0xEB4B185D" title="Over Boost Protection">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x03</packetoffset>
+    <operand>0x00000004</operand>
+    <bitop>AND</bitop>
+    <result>0x00000004</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="TQINTVASR" idhash="0xB184E0EF" title="Torque Intervention ASR">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x0F</packetoffset>
+    <operand>0x000000E0</operand>
+    <bitop>AND</bitop>
+    <result>0x00000020</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="TQINTVMSR" idhash="0xB1EEE0EF" title="Torque Intervention MSR">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x0F</packetoffset>
+    <operand>0x000000E0</operand>
+    <bitop>AND</bitop>
+    <result>0x00000040</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="TQINTVLIMIT" idhash="0x1A052287" title="Torque Intervention Limit">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x0F</packetoffset>
+    <operand>0x000000E0</operand>
+    <bitop>AND</bitop>
+    <result>0x00000060</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="TQINTVGEAR" idhash="0x34ACE396" title="Torque Intervention Gear">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x0F</packetoffset>
+    <operand>0x000000E0</operand>
+    <bitop>AND</bitop>
+    <result>0x00000080</result>
+  </ADXBITMASK>
+
+  <ADXBITMASK id="TQINTVAMT" idhash="0xB184E2CF" title="Torque Intervention AMT">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <truestring>ON</truestring>
+    <falsestring>OFF</falsestring>
+    <ALARMONSET color="0x000000FF" />
+    <ALARMONNOTSET color="0x0000FF00" />
+    <packetoffset>0x0F</packetoffset>
+    <operand>0x000000E0</operand>
+    <bitop>AND</bitop>
+    <result>0x000000E0</result>
+  </ADXBITMASK>
+
+  <ADXVALUE id="N" idhash="0x86F3491B" title="Engine Speed">
+    <desc>Engine Speed</desc>
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Speed (rpm)</units>
+    <packetoffset>0x04</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="8160.000000" />
+    <alarms low="0.000000" high="7000.000000" />
+    <digcount>1</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;8191">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="NIS" idhash="0xCD247D5B" title="Engine Speed Idle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Speed Idle (rpm)</units>
+    <packetoffset>0x04</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="8160.000000" />
+    <alarms low="0.000000" high="7000.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="(X&amp;8191)*IS">
+      <VAR varID="X" type="native" />
+      <VAR varID="IS" type="link" linkIDHash="0x48397C75" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="NPL" idhash="0xCD26DBFB" title="Engine Speed Part">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Speed Part (rpm)</units>
+    <packetoffset>0x04</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="8160.000000" />
+    <alarms low="0.000000" high="7000.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="(X&amp;8191)*PL">
+      <VAR varID="X" type="native" />
+      <VAR varID="PL" type="link" linkIDHash="0x483BDAD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="NFL" idhash="0xCD252BFB" title="Engine Speed Full">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Speed Full (rpm)</units>
+    <packetoffset>0x04</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="8160.000000" />
+    <alarms low="0.000000" high="7000.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="(X&amp;8191)*FL">
+      <VAR varID="X" type="native" />
+      <VAR varID="FL" type="link" linkIDHash="0x48382AD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="GEAR" idhash="0xA6737119" title="Current Gear (Calculated)">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Gear</units>
+    <packetoffset>0x05</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>1</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X/32">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="VS" idhash="0xDE6A9030" title="Vehicle Speed">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Vehicle Speed (km/h)</units>
+    <packetoffset>0x06</packetoffset>
+    <range low="0.000000" high="255.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="1.0*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="AMP" idhash="0xCD1203DB" title="Atmospheric Pressure">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Atmospheric Pressure (kPa)</units>
+    <packetoffset>0x07</packetoffset>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="2.1227901184*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAP" idhash="0xCD7B53DB" title="Manifold Pressure">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.0082921489*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE1" idhash="0xA9DB03DD" title="Manifold Pressure VE 1">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 1 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x71B03C9" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE2" idhash="0xA9DB197D" title="Manifold Pressure VE 2">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 2 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x71B1969" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE3" idhash="0xA9DB067D" title="Manifold Pressure VE 3">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 3 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x71B0669" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE4" idhash="0xA9DB047D" title="Manifold Pressure VE 4">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 4 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0xA39B21B9" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE5" idhash="0xA9DB131D" title="Manifold Pressure VE 5">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 5 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0xA39B36D9" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE6" idhash="0xA9DB10BD" title="Manifold Pressure VE 6">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 6 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x71B10A9" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE7" idhash="0xA9DB0AFD" title="Manifold Pressure VE 7">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 7 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x71B0AE9" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPVE8" idhash="0xA9DB07BD" title="Manifold Pressure VE 8">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Air Pressure VE 8 (kPa)</units>
+    <packetoffset>0x08</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(0.0082921489*X)*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x71B07A9" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIA" idhash="0xCD46E75B" title="Intake Air Temperature">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Intake Air Temperature (&#176;C)</units>
+    <packetoffset>0x0A</packetoffset>
+    <range low="-48.000000" high="142.500000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.747058824*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TCO" idhash="0xCD46A91B" title="Coolant Temperature">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Coolant Temperature (&#176;C)</units>
+    <packetoffset>0x0B</packetoffset>
+    <range low="-48.000000" high="142.500000" />
+    <alarms low="0.000000" high="100.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.747058824*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TOIL" idhash="0xA8A1DA99" title="Oil Temperature">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Oil Temperature (&#176;C)</units>
+    <packetoffset>0x0C</packetoffset>
+    <range low="-48.000000" high="155.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.796078431*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TCOEX" idhash="0x1AA79995" title="Radiator Outlet Temperature">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Radiator Outlet Temperature (&#176;C)</units>
+    <packetoffset>0x0D</packetoffset>
+    <range low="-48.000000" high="142.500000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.747058824*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TQITQR" idhash="0x257E58C2" title="Engine Torque">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Torque (Nm)</units>
+    <packetoffset>0x0E</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="1023.000000" />
+    <alarms low="0.000000" high="1023.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="1*(X&amp;8191)">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="ACTIVEVE" idhash="0xBB46923C" title="Active VE Table">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Active VE Table</units>
+    <packetoffset>0x10</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.00390625*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFTI" idhash="0xED306795" title="Engine Load Injection">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Injection (mg/stk)</units>
+    <packetoffset>0x12</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFTIIS" idhash="0xC19E44F4" title="Engine Load Injection Idle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Injection Idle (mg/stk)</units>
+    <packetoffset>0x12</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48397C75" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFTIPL" idhash="0xC19CE254" title="Engine Load Injection Part">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Injection Part (mg/stk)</units>
+    <packetoffset>0x12</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x483BDAD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFTIFL" idhash="0xC19F1254" title="Engine Load Injection Full">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Injection Full (mg/stk)</units>
+    <packetoffset>0x12</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48382AD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIGA" idhash="0xA62DC7FD" title="Engine Load Ignition">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Ignition (mg/stk)</units>
+    <packetoffset>0x14</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIGAIS" idhash="0xB71FE5D8" title="Engine Load Ignition Idle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Ignition Idle (mg/stk)</units>
+    <packetoffset>0x14</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48397C75" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIGAPL" idhash="0xB71D4378" title="Engine Load Ignition Part">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Ignition Part (mg/stk)</units>
+    <packetoffset>0x14</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x483BDAD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIGAFL" idhash="0xB71EB378" title="Engine Load Ignition Full">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Ignition Full (mg/stk)</units>
+    <packetoffset>0x14</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48382AD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIVVT" idhash="0xC5D877F4" title="Engine Load VANOS">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Vanos (mg/stk)</units>
+    <packetoffset>0x16</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIVVTIS" idhash="0x61DFC057" title="Engine Load VANOS Idle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Vanos Idle (mg/stk)</units>
+    <packetoffset>0x16</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48397C75" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIVVTPL" idhash="0x61DD66F7" title="Engine Load VANOS Part">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Vanos Part (mg/stk)</units>
+    <packetoffset>0x16</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x483BDAD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFIVVTFL" idhash="0x61DE96F7" title="Engine Load VANOS Full">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load Vanos Full (mg/stk)</units>
+    <packetoffset>0x16</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48382AD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMMV" idhash="0xA63213FD" title="Engine Load MMV">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load MMV (mg/stk)</units>
+    <packetoffset>0x18</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMMVIS" idhash="0xC84FE5D8" title="Engine Load MMV Idle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Idle Load MMV Idle (mg/stk)</units>
+    <packetoffset>0x18</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48397C75" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMMVPL" idhash="0xC84D4378" title="Engine Load MMV Part">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load MMV Part (mg/stk)</units>
+    <packetoffset>0x18</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x483BDAD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMMVFL" idhash="0xC84EB378" title="Engine Load MMV Full">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load MMV Full (mg/stk)</units>
+    <packetoffset>0x18</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48382AD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMES" idhash="0xA63109FD" title="Engine Load MAF">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Engine Load (mg/stk)</units>
+    <packetoffset>0x1A</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMESIS" idhash="0xC427E5D8" title="Engine Load MAF Idle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Idle Load (mg/stk)</units>
+    <packetoffset>0x1A</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*I">
+      <VAR varID="X" type="native" />
+      <VAR varID="I" type="link" linkIDHash="0x48397C75" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMESPL" idhash="0xC4254378" title="Engine Load MAF Part">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Part Load (mg/stk)</units>
+    <packetoffset>0x1A</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*P">
+      <VAR varID="X" type="native" />
+      <VAR varID="P" type="link" linkIDHash="0x483BDAD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAFMESFL" idhash="0xC426B378" title="Engine Load MAF Full">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Full Load (mg/stk)</units>
+    <packetoffset>0x1A</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="2798.000000" />
+    <alarms low="0.000000" high="2798.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.04239*X*F">
+      <VAR varID="X" type="native" />
+      <VAR varID="F" type="link" linkIDHash="0x48382AD5" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAF" idhash="0xCD7B4C5B" title="Mass Air Flow">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Mass Air Flow (kg/h)</units>
+    <packetoffset>0x1C</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="4096.000000" />
+    <alarms low="0.000000" high="4096.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.25*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LAM1" idhash="0xAA783619" title="Short Term Fuel Trim Bank 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>STFT Bank 1 (%)</units>
+    <packetoffset>0x1E</packetoffset>
+    <range low="-50.000000" high="50.000000" />
+    <alarms low="-50.000000" high="50.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.3906249984*X-50.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LAM2" idhash="0xAA782CB9" title="Short Term Fuel Trim Bank 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>STFT Bank 2 (%)</units>
+    <packetoffset>0x1F</packetoffset>
+    <range low="-50.000000" high="50.000000" />
+    <alarms low="-50.000000" high="50.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.3906249984*X-50.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIADFAC1" idhash="0xCACFD8AE" title="Long Term Fuel Trim Multiplicative Bank 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>LTFT Multiplicative Bank 1 (%)</units>
+    <packetoffset>0x20</packetoffset>
+    <range low="-50.000000" high="50.000000" />
+    <alarms low="-50.000000" high="50.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.3906249984*X-50.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIADFAC2" idhash="0xCACFC20E" title="Long Term Fuel Trim Multiplicative Bank 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>LTFT Multiplicative Bank 2 (%)</units>
+    <packetoffset>0x21</packetoffset>
+    <range low="-50.000000" high="50.000000" />
+    <alarms low="-50.000000" high="50.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.3906249984*X-50.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIADADD1" idhash="0xC12470AE" title="Long Term Fuel Trim Additive Bank 1">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>LTFT Additive Bank 1 (ms)</units>
+    <packetoffset>0x22</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="-131.000000" high="131.000000" />
+    <alarms low="-131.000000" high="131.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.004*X-131.072">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIADADD2" idhash="0xC1246A0E" title="Long Term Fuel Trim Additive Bank 2">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>LTFT Additive Bank 2 (ms)</units>
+    <packetoffset>0x24</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="-131.000000" high="131.000000" />
+    <alarms low="-131.000000" high="131.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.004*X-131.072">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIBANK1" idhash="0xDD5C450F" title="Injection Time Bank 1">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Injection Time Bank 1 (ms)</units>
+    <packetoffset>0x26</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="72.000000" />
+    <alarms low="0.000000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.0053333333*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIBANK2" idhash="0xDD5C5FAF" title="Injection Time Bank 2">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Injection Time Bank 2 (ms)</units>
+    <packetoffset>0x28</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="72.000000" />
+    <alarms low="0.000000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.0053333333*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TIAVG" idhash="0x1B9CD2D5" title="Injection Time Average">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Injection Time Average (ms)</units>
+    <packetoffset>0x26</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="72.000000" />
+    <alarms low="0.000000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(TI1+TI2)/2">
+      <VAR varID="TI1" type="link" linkIDHash="0xDD5C450F" />
+      <VAR varID="TI2" type="link" linkIDHash="0xDD5C5FAF" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="INJDC" idhash="0x9DF71DF5" title="Fuel Injector Duty Cycle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Fuel Injector Duty Cycle (%)</units>
+    <packetoffset>0x26</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="100.000000" />
+    <alarms low="0.000000" high="100.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(TI*RPM)/1200">
+      <VAR varID="TI" type="link" linkIDHash="0x1B9CD2D5" />
+      <VAR varID="RPM" type="link" linkIDHash="0x86F3491B" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="PVS" idhash="0xCD31415B" title="Accelerator Pedal Position">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Accelerator Pedal Position (&#176;PVS)</units>
+    <packetoffset>0x2A</packetoffset>
+    <range low="0.000000" high="120.000000" />
+    <alarms low="0.000000" high="120.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.46875008*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TPS" idhash="0xCD44515B" title="Throttle Body Position">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Throttle Body Position (&#176;TPS)</units>
+    <packetoffset>0x2B</packetoffset>
+    <range low="0.000000" high="90.000000" />
+    <alarms low="0.000000" high="90.000000" />
+    <digcount>1</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.46875008*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGA1" idhash="0xACF9E619" title="Ignition Angle Cyl 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Cyl 1 (&#176;CRK)</units>
+    <packetoffset>0x2C</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X+72.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGA2" idhash="0xACF9FCB9" title="Ignition Angle Cyl 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Cyl 2 (&#176;CRK)</units>
+    <packetoffset>0x2D</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X+72.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGA3" idhash="0xACF9E3B9" title="Ignition Angle Cyl 3">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Cyl 3 (&#176;CRK)</units>
+    <packetoffset>0x2E</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X+72.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGA4" idhash="0xACF9E1B9" title="Ignition Angle Cyl 4">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Cyl 4 (&#176;CRK)</units>
+    <packetoffset>0x2F</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X+72.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGA5" idhash="0xACF9F6D9" title="Ignition Angle Cyl 5">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Cyl 5 (&#176;CRK)</units>
+    <packetoffset>0x30</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X+72.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGA6" idhash="0xACF9F579" title="Ignition Angle Cyl 6">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Cyl 6 (&#176;CRK)</units>
+    <packetoffset>0x31</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X+72.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAAVG" idhash="0xE7D95B53" title="Ignition Angle Average">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Ignition Angle Average (&#176;CRK)</units>
+    <packetoffset>0x2C</packetoffset>
+    <range low="-23.625000" high="72.000000" />
+    <alarms low="-23.625000" high="72.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(IGA1+IGA2+IGA3+IGA4+IGA5+IGA6)/6">
+      <VAR varID="IGA1" type="link" linkIDHash="0xACF9E619" />
+      <VAR varID="IGA2" type="link" linkIDHash="0xACF9FCB9" />
+      <VAR varID="IGA3" type="link" linkIDHash="0xACF9E3B9" />
+      <VAR varID="IGA4" type="link" linkIDHash="0xACF9E1B9" />
+      <VAR varID="IGA5" type="link" linkIDHash="0xACF9F6D9" />
+      <VAR varID="IGA6" type="link" linkIDHash="0xACF9F579" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNK1" idhash="0xF98C471C" title="Knock Correction Cyl 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Cyl 1 (&#176;CRK)</units>
+    <packetoffset>0x32</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNK2" idhash="0xF98C5DBC" title="Knock Correction Cyl 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Cyl 2 (&#176;CRK)</units>
+    <packetoffset>0x33</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNK3" idhash="0xF98C42BC" title="Knock Correction Cyl 3">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Cyl 3 (&#176;CRK)</units>
+    <packetoffset>0x34</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNK4" idhash="0xF98C40BC" title="Knock Correction Cyl 4">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Cyl 4 (&#176;CRK)</units>
+    <packetoffset>0x35</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNK5" idhash="0xF98C57DC" title="Knock Correction Cyl 5">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Cyl 5 (&#176;CRK)</units>
+    <packetoffset>0x36</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNK6" idhash="0xF98C547C" title="Knock Correction Cyl 6">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Cyl 6 (&#176;CRK)</units>
+    <packetoffset>0x37</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X-48.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="IGAKNKAVG" idhash="0x315D4E06" title="Knock Correction Average">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Knock Correction Average (&#176;CRK)</units>
+    <packetoffset>0x32</packetoffset>
+    <range low="-48.000000" high="48.000000" />
+    <alarms low="-48.000000" high="48.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="(KNK1+KNK2+KNK3+KNK4+KNK5+KNK6)/6">
+      <VAR varID="KNK1" type="link" linkIDHash="0xF98C471C" />
+      <VAR varID="KNK2" type="link" linkIDHash="0xF98C5DBC" />
+      <VAR varID="KNK3" type="link" linkIDHash="0xF98C42BC" />
+      <VAR varID="KNK4" type="link" linkIDHash="0xF98C40BC" />
+      <VAR varID="KNK5" type="link" linkIDHash="0xF98C57DC" />
+      <VAR varID="KNK6" type="link" linkIDHash="0xF98C547C" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="CAMAVIN" idhash="0x1329D214" title="VANOS Angle Intake">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Vanos Intake (&#176;CRK)</units>
+    <packetoffset>0x38</packetoffset>
+    <range low="60.000000" high="156.000000" />
+    <alarms low="60.000000" high="156.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.375*X+60.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="CAMAVEX" idhash="0x132A2054" title="VANOS Angle Exhaust">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Vanos Exhaust (&#176;CRK)</units>
+    <packetoffset>0x39</packetoffset>
+    <range low="-156.000000" high="-60.000000" />
+    <alarms low="0.000000" high="255.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="-0.375*X-60.0">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="ISAPWMIS" idhash="0xE7B5D877" title="Idle PWM">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Idle PWM (%)</units>
+    <packetoffset>0x3A</packetoffset>
+    <range low="0.000000" high="200.000000" />
+    <alarms low="0.000000" high="200.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.3906251008*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="ISAPWMISA" idhash="0xF6BB13BC" title="Idle Actuator PWM">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Idle Actuator PWM (%)</units>
+    <packetoffset>0x3B</packetoffset>
+    <range low="0.000000" high="100.000000" />
+    <alarms low="0.000000" high="100.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.3906251008*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="BCDC" idhash="0xAF6631B9" title="Boost Controller Duty Cycle">
+    <flags>0x00000002</flags>
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Boost Controller Duty Cycle (%)</units>
+    <packetoffset>0x3C</packetoffset>
+    <sizeinbits>16</sizeinbits>
+    <range low="0.000000" high="100.000000" />
+    <alarms low="0.000000" high="100.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.016 * X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="MAPREQ" idhash="0xA9879B9D" title="Manifold Pressure Request">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Manifold Pressure Request (kPa)</units>
+    <packetoffset>0x3E</packetoffset>
+    <range low="0.000000" high="543.426025" />
+    <alarms low="0.000000" high="543.426025" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="2.1227901184*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="VB" idhash="0xDE6A9050" title="Battery Voltage">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Battery Voltage (V)</units>
+    <packetoffset>0x3F</packetoffset>
+    <range low="0.000000" high="26.000000" />
+    <alarms low="0.000000" high="26.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.10196078*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="RONADFAC" idhash="0x2070B1FC" title="RON Adaptation Factor">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>RON Adaptation Factor (%)</units>
+    <packetoffset>0x40</packetoffset>
+    <range low="0.000000" high="100.000000" />
+    <alarms low="0.000000" high="100.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.0039215686*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="FFBLEND" idhash="0x1533CF7A" title="Flex Fuel Blending Percentage">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Flex Fuel Blending Percentage (%)</units>
+    <packetoffset>0x41</packetoffset>
+    <range low="0.000000" high="100.000000" />
+    <alarms low="0.000000" high="100.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.39215686*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="AFTARGET" idhash="0x6EFE471D" title="Air Fuel Ratio Target">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Air Fuel Ratio Target (AFR)</units>
+    <packetoffset>0x42</packetoffset>
+    <range low="0.000000" high="25.500000" />
+    <alarms low="0.000000" high="25.500000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.1 * X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LSDOWNINPUT1" idhash="0x5480BBF2" title="Downstream Lambda Sensor Input Bank 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Downstream Lambda Sensor Input Bank 1 (V)</units>
+    <packetoffset>0x43</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.01953125*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LSDOWNINPUT2" idhash="0x5480A152" title="Downstream Lambda Sensor Input Bank 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Downstream Lambda Sensor Input Bank 2 (V)</units>
+    <packetoffset>0x44</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.01953125*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="DTMLINPUT" idhash="0x317B582D" title="DTML Input">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>DTML Input (V)</units>
+    <packetoffset>0x45</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.01953125*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="FUCINPUT" idhash="0xB5BFF949" title="Fuel Cap Input">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Fuel Cap Input (V)</units>
+    <packetoffset>0x46</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.01953125*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TEGUPINPUT2" idhash="0x01BF7B7D" title="Upstream EGT Input Bank 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Upstream EGT Input Bank 2 (V)</units>
+    <packetoffset>0x47</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.01953125*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="TEGDOWNINPUT2" idhash="0x0BACEDEC" title="Downstream EGT Input Bank 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <units>Downstream EGT Input Bank 2 (V)</units>
+    <packetoffset>0x48</packetoffset>
+    <range low="0.000000" high="5.000000" />
+    <alarms low="0.000000" high="5.000000" />
+    <digcount>2</digcount>
+    <outputtype>3</outputtype>
+    <MATH equation="0.01953125*X">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTIS" idhash="0x48397C75" title="LUT Idle">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x00</packetoffset>
+    <range low="0.000000" high="3.000000" />
+    <alarms low="0.000000" high="3.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;6" lookupidhash="0x49FDF0B7">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTPL" idhash="0x483BDAD5" title="LUT Part Load">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x00</packetoffset>
+    <range low="0.000000" high="3.000000" />
+    <alarms low="0.000000" high="3.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;6" lookupidhash="0x39FD5D29">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTFL" idhash="0x48382AD5" title="LUT Full Load">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x00</packetoffset>
+    <range low="0.000000" high="3.000000" />
+    <alarms low="0.000000" high="3.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;6" lookupidhash="0x63FDA286">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTVE1" idhash="0x071B03C9" title="LUT VE Table 1">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603EC77D">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTVE2" idhash="0x071B1969" title="LUT VE Table 2">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603EDDDD">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTVE3" idhash="0x071B0669" title="LUT VE Table 3">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603EC2DD">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="XVE4" idhash="0xA39B21B9" title="LUT VE Table 4">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603EC0DD">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="XVE5" idhash="0xA39B36D9" title="LUT VE Table 5">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603ED7BD">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTVE6" idhash="0x071B10A9" title="LUT VE Table 6">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603ED41D">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTVE7" idhash="0x071B0AE9" title="LUT VE Table 7">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603ECE5D">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXVALUE id="LUTVE8" idhash="0x071B07A9" title="LUT VE Table 8">
+    <parentcmdidhash>0xDAA83ACD</parentcmdidhash>
+    <packetoffset>0x11</packetoffset>
+    <range low="0.000000" high="8.000000" />
+    <alarms low="0.000000" high="8.000000" />
+    <digcount>2</digcount>
+    <outputtype>1</outputtype>
+    <MATH equation="X&amp;15" lookupidhash="0x603EC31D">
+      <VAR varID="X" type="native" />
+    </MATH>
+  </ADXVALUE>
+
+  <ADXMONITOR id="MONITOR1" idhash="0xF9C5B75D" title="Monitor">
+    <mainbkgcolor>0x00FFFFFF</mainbkgcolor>
+    <plotbkgcolor>0x00F0F0F0</plotbkgcolor>
+    <plotoutlinecolor>0x00000000</plotoutlinecolor>
+    <titlecolor>0x00000000</titlecolor>
+    <timeaxiscolor>0x00000000</timeaxiscolor>
+    <entrycount>4</entrycount>
+    <ADXMONSERIES linecolor="0x0000FF" axiscolor="0x0000FF" itemidhash="0x86F3491B" />
+    <ADXMONSERIES linecolor="0x009600" axiscolor="0x009600" itemidhash="0x1B9CD2D5" />
+    <ADXMONSERIES linecolor="0xFF0000" axiscolor="0xFF0000" itemidhash="0xE7D95B53" />
+    <ADXMONSERIES linecolor="0xFF8080" axiscolor="0xFF8080" itemidhash="0x315D4E06" />
+  </ADXMONITOR>
+
+  <ADXMONITOR id="MON2" idhash="0xAF63C8B9" title="Monitor 2">
+    <mainbkgcolor>0x00000000</mainbkgcolor>
+    <plotbkgcolor>0x003F3F3F</plotbkgcolor>
+    <plotoutlinecolor>0x00B6B6B6</plotoutlinecolor>
+    <titlecolor>0x00FFFFFF</titlecolor>
+    <timeaxiscolor>0x0000FFFF</timeaxiscolor>
+    <entrycount>6</entrycount>
+    <ADXMONSERIES linecolor="0x0000FF" axiscolor="0x0000FF" itemidhash="0xA63109FD" />
+    <ADXMONSERIES linecolor="0x009600" axiscolor="0x009600" itemidhash="0xA63213FD" />
+    <ADXMONSERIES linecolor="0xFF0000" axiscolor="0xFF0000" itemidhash="0xA62DC7FD" />
+    <ADXMONSERIES linecolor="0xFF8080" axiscolor="0xFF8080" itemidhash="0xED306795" />
+    <ADXMONSERIES linecolor="0xC8C800" axiscolor="0xC8C800" itemidhash="0xC5D877F4" />
+    <ADXMONSERIES linecolor="0x0080FF" axiscolor="0x0080FF" itemidhash="0xCD7B4C5B" />
+  </ADXMONITOR>
+
+  <ADXDASHBOARD id="MAINDASH" idhash="0x7A2F048C" title="Main Dash">
+    <entrycount>12</entrycount>
+    <ADXDGENTRY gaugetype="0" itemidhash="0x86F3491B" left="0" top="0" right="24" bottom="50" arcmax="300" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0x1B9CD2D5" left="0" top="50" right="25" bottom="75" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0xE7D95B53" left="25" top="50" right="50" bottom="75" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0x6EFE471D" left="0" top="75" right="25" bottom="100" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0x315D4E06" left="25" top="75" right="50" bottom="100" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0xCD46E75B" left="50" top="50" right="75" bottom="75" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0xCD7B4C5B" left="50" top="70" right="75" bottom="100" />
+    <ADXDGENTRY gaugetype="0" itemidhash="0xCD7B53DB" left="25" top="0" right="49" bottom="50" arcmax="300" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0xAA783619" left="70" top="50" right="100" bottom="75" />
+    <ADXDGENTRY gaugetype="1" itemidhash="0xAA782CB9" left="70" top="70" right="100" bottom="100" />
+    <ADXDGENTRY gaugetype="0" itemidhash="0xCD46A91B" left="50" top="0" right="75" bottom="50" arcmax="300" />
+    <ADXDGENTRY gaugetype="0" itemidhash="0xA8A1DA99" left="75" top="0" right="100" bottom="50" arcmax="300" />
+  </ADXDASHBOARD>
+
+  <ADXMACRO id="MONITORMACRO" idhash="0xD177CF5B" title="Monitor Macro" basecmdflags="0x01" repeatcount="1">
+    <NODE commandID="DATAREQUEST" repeatcount="1" />
+    <NODE commandID="DATAREPLY" repeatcount="1" />
+  </ADXMACRO>
+
+  <ADXMACRO id="RESETBAUDRATE" idhash="0xF3CB5D00" title="Reset Baudrate" basecmdflags="0x03" repeatcount="1">
+    <NODE commandID="9600BAUD" repeatcount="1" />
+    <NODE commandID="9600BAUDREPLY" repeatcount="1" />
+  </ADXMACRO>
+
+  <ADXCSENDCOMMAND id="9600BAUD" idhash="0x467D55DA" title="9600 Baudrate">
+    <baud>125000</baud>
+    <bytestring size="0x8">120891002580002E</bytestring>
+  </ADXCSENDCOMMAND>
+
+  <ADXCLISTENPACKET id="9600BAUDREPLY" idhash="0x1D7A53CA" title="9600 Baudrate Reply" flags="0x00000001">
+    <baud>125000</baud>
+    <listentimeout>500</listentimeout>
+    <packetbodylength>0</packetbodylength>
+    <packetoffsetinbody>0</packetoffsetinbody>
+    <packetsize>0</packetsize>
+    <headerstring size="4">1204A0B6</headerstring>
+  </ADXCLISTENPACKET>
+
+  <ADXMACRO id="INCREASEBAUDRA" idhash="0x9A2E9F27" title="Increase Baudrate" repeatcount="1">
+    <NODE commandID="125000BAUD" repeatcount="1" />
+    <NODE commandID="125000BAUDREPL" repeatcount="1" />
+  </ADXMACRO>
+
+  <ADXCSENDCOMMAND id="125000BAUD" idhash="0x1B633290" title="125000 Baudrate">
+    <bytestring size="0x8">12089101E848002A</bytestring>
+  </ADXCSENDCOMMAND>
+
+  <ADXCLISTENPACKET id="125000BAUDREPL" idhash="0x244E03D3" title="125000 Baudrate Reply" flags="0x00000001">
+    <listentimeout>500</listentimeout>
+    <packetbodylength>0</packetbodylength>
+    <packetoffsetinbody>0</packetoffsetinbody>
+    <packetsize>0</packetsize>
+    <headerstring size="4">1204A0B6</headerstring>
+  </ADXCLISTENPACKET>
+
+  <ADXCSENDCOMMAND id="DATAREQUEST" idhash="0xA193572A" title="Data Request ">
+    <baud>125000</baud>
+    <bytestring size="0x5">12050BB0AC</bytestring>
+  </ADXCSENDCOMMAND>
+
+  <ADXCLISTENPACKET id="DATAREPLY" idhash="0xDAA83ACD" title="Data Reply" flags="0x00000001">
+    <baud>125000</baud>
+    <listentimeout>400</listentimeout>
+    <packetbodylength>74</packetbodylength>
+    <packetoffsetinbody>0</packetoffsetinbody>
+    <packetsize>73</packetsize>
+    <headerstring size="3">124DA0</headerstring>
+  </ADXCLISTENPACKET>
+</ADXFORMAT>
