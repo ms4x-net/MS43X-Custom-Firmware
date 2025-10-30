@@ -19,3 +19,19 @@ Release date: **31st Oct 2025**
 - Launch control
 - No-lift shift
 - Rolling anti-lag mode
+
+## Downloads
+- **E36/7 Z3-series**
+  - coming soon
+
+- **E39 5-series**
+  - M54B30: coming soon
+
+- **E46 3-series**
+  - M52TUB28: coming soon
+  - M54B22: coming soon
+  - M54B25: coming soon
+  - M54B30: coming soon
+
+- **E53 X5-series**
+  - M54B30: coming soon
