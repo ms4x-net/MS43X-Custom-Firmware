@@ -1,7 +1,5 @@
 # MS43X001 (Initial release)
-Release date: **31st Oct 2025**
-
-Codename: **MAPocalypse**
+Release date: **31st Oct 2025** // **MAPocalypse**
 
 ## Downloads
 - **E36/7 Z3-series**
