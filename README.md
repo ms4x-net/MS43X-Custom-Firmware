@@ -9,11 +9,6 @@ MS43X is a custom firmware built on top of the Siemens MS430069 firmware. It is 
 
 Unlike earlier methods of distributing patches, each release of MS43X includes fully integrated definition files bundled with the firmware, eliminating the need for external patching.
 
-### Downloads  
-- **Firmware files** — Completed firmware files for several BMW platform and engine versions
-- **Definition files** — XDF (partial & full) and ADX files for the latest MS43X version
-- **Assembler files** — Assembly code of the underlaying new and changed functions
-
 ### Changelog (Latest Version)  
 Current release: **MS43X001 (Oct 2025)**  
 #### Behavior Changes  
