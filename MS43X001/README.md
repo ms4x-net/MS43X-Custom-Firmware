@@ -1,4 +1,5 @@
 # MS43X001 (Initial release)
+Release date: **31st Oct 2025**
 
 ## Downloads
 - **E36/7 Z3-series**
@@ -18,7 +19,6 @@
 
 
 ## Changelog
-Release date: **31st Oct 2025**
 
 ### Behavior Changes
 - Added configurable load input (MAP / MAF / Alpha-N)
