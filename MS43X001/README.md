@@ -12,7 +12,7 @@ Release date: **31st Oct 2025** // **MAPocalypse**
   - M52TUB28: coming soon
   - M54B22: [EU4 LHD](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B22_EU4_LHD.bin)
   - M54B25: [EU4 LHD](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B25_EU4_LHD.bin)
-  - M54B30: [EU4 LHD](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B30_EU4_LHD.bin) || [US](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B30_US.bin) ||
+  - M54B30: [EU4 LHD](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B30_EU4_LHD.bin) || [US](https://github.com/ms4x-net/MS43X-Custom-Firmware/raw/refs/heads/main/MS43X001/firmware/Siemens_MS43_MS43X001_E46_M54B30_US.bin)
 
 - **E53 X5-series**
   - M54B30: coming soon
