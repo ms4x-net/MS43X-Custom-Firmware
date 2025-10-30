@@ -30,19 +30,6 @@ Current release: **MS43X001 (Oct 2025)**
 - No-lift shift (throttle on shifting)  
 - Rolling anti-lag mode  
 
-## Hardware Requirements  
-To support the new features, additional analog inputs and outputs are required. Therefore, certain I/O pins in the ECU are reallocated and fixed (not configurable). This ensures consistent wiring across installations.
-
-| ECU Pin       | Type / Signal             | Wire Color Suggestion | Usage                      |
-|----------------|----------------------------|-------------------------|-----------------------------|
-| X60002.2        | 0–5V analog input (A_ETH)   | VI/BL                   | Flex-fuel / ethanol sensor  |
-| X60003.50       | PWM switched ground (T_WG)  | VI/GR                   | Boost control solenoid       |
-| X60004.15       | 0–5V analog input (A_SDF)   | VI/WS                   | MAP sensor                   |
-| X60004.5        | Sensor ground (M_SENS)      | SW                      | MAP sensor ground            |
-| X60004.6        | 5V supply output (U_SENS)   | RT/GN                   | MAP sensor 5V supply         |
-
-(These pin assignments are fixed for all MS43X releases)
-
 ## Behavior & Functional Changes  
 
 ### Load Acquisition  
