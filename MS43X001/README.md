@@ -22,7 +22,7 @@ Release date: **31st Oct 2025** // **MAPocalypse**
 
 ### Behavior Changes
 - Added configurable load input (MAP / MAF / Alpha-N)
-- Switched from VO (speed-density) tables to VE (volumetric efficiency) tables
+- Switched from VO (valve overlap) tables to VE (volumetric efficiency) tables
 - Removed legacy injection timing correction tables; replaced with dynamic injector scalars
 - Reworked full-load detection logic
 - Added intake air temperature dependency to electric cooling fan logic
