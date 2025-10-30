@@ -1,6 +1,6 @@
-MS43X001 (Initial release)
+# MS43X001 (Initial release)
 
-# Downloads
+## Downloads
 - **E36/7 Z3-series**
   - coming soon
 
@@ -17,10 +17,10 @@ MS43X001 (Initial release)
   - M54B30: coming soon
 
 
-# Changelog
+## Changelog
 Release date: **31st Oct 2025**
 
-## Behavior Changes
+### Behavior Changes
 - Added configurable load input (MAP / MAF / Alpha-N)
 - Switched from VO (speed-density) tables to VE (volumetric efficiency) tables
 - Removed legacy injection timing correction tables; replaced with dynamic injector scalars
@@ -30,7 +30,7 @@ Release date: **31st Oct 2025**
 - Improved serial communication routines
 - Removed immobilizer (EWS) logic to free resources
 
-## New Features
+### New Features
 - Closed-loop boost controller (boost by gear)
 - Overboost protection
 - Flex-fuel support
