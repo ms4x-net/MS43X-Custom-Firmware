@@ -21,13 +21,13 @@ Current release: **MS43X001 (Oct 2025)**
 - Improved serial communication routines  
 - Removed immobilizer (EWS) logic to free resources  
 #### New Features  
-- Closed-loop boost controller (gear-based)  
+- Closed-loop boost controller (boost by gear)  
 - Overboost protection  
 - Flex-fuel support  
-- MIL (Malfunction Indicator Lamp) warning indicator  
-- Shift-lights via “M cluster” LEDs  
+- MIL warning indicator  
+- Shift-lights
 - Launch control  
-- No-lift shift (throttle on shifting)  
+- No-lift shift
 - Rolling anti-lag mode  
 
 ## Behavior & Functional Changes  
